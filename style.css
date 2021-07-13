@@ -4,7 +4,16 @@
 	box-sizing: border-box;
 	transition: all .5s ease-in-out;
 }
-
+body{
+	background-image: linear-gradient(to right,#aaeeff,#cc99cc);
+}
+.heading{
+	font-size: 1.5rem;
+	padding: 40px;
+}
+.heading2{
+	padding-bottom: 25px;
+}
 nav{
 	position: absolute;
 	top: 0;
@@ -89,5 +98,11 @@ nav ul.active{
 }
 h1,h2,p{
 	text-align: center;
-	font-size: large;
+	
+}
+p{
+	line-height: 2;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
 }
