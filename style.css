@@ -85,4 +85,9 @@ nav ul.active{
 	nav ul li{
 		padding: 20px;
 	}
+    	
+}
+h1,h2,p{
+	text-align: center;
+	font-size: large;
 }
